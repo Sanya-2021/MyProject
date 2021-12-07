@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-    fun toastME(view: android.view.View) {
+    fun Button1(view: android.view.View) {
         val intent = Intent(this, SecondActivity::class.java)
         startActivity(intent)
     }
